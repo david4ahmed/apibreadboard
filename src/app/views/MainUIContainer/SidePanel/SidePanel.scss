@@ -1,0 +1,48 @@
+$border-color: #126e82;
+
+.SidePanelContainer-Main {
+    background-color: #d8e3e7;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+
+    .SidePanelContainer-Main-Btn{
+        margin-top: 0.5rem;
+    }
+ 
+
+    .ResultingCodeContainer {
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+        .title {
+            border-bottom: 2px solid $border-color;
+            text-align: center;
+        }
+
+        .body {
+            flex-direction: 1;
+            overflow-y: auto;
+        }
+    }
+
+    .ApiCallContainer {
+        background-color: #d8e3e7;
+
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            border-bottom: 2px solid $border-color;
+            border-top: 2px solid $border-color;
+            text-align: center;
+        }
+
+        .body {
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+    }
+}

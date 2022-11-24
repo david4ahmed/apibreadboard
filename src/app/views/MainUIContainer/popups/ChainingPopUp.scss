@@ -1,0 +1,10 @@
+.ChainingPopUpContainer {
+    display: flex;
+    flex-direction: row;
+
+
+    .ChainingPopUpSectionContainer {
+        flex-grow: 1;
+    }
+}
+
